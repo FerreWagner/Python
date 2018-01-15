@@ -34,7 +34,61 @@ L = ['faith', 'sccc', 'moggy', 'kpii', 'kaka']
 # uu = [k + '=' + v for k, v in d.items()]
 # print(uu)
 
-L = ['Hello', 'World', 18, 'Apple', None]
-for s in L:
-    if isinstance(s, str):
-        print(s)
+# L = ['Hello', 'World', 18, 'Apple', None]
+# for s in L:
+#     if isinstance(s, str):
+#         print(s)
+
+
+
+# 在Python中，一边循环一边计算的机制，称为生成器：generator。
+# g = (x * x for x in range(20))
+# for n in g:
+#     print(n)
+
+
+# Fibonacci
+# 这就是定义generator的另一种方法。如果一个函数定义中包含yield关键字，那么这个函数就不再是一个普通函数，而是一个generator
+# generator和函数的执行流程不一样。函数是顺序执行，遇到return语句或者最后一行函数语句就返回。
+# 而变成generator的函数，在每次调用next()的时候执行，遇到yield语句返回，再次执行时从上次返回的yield语句处继续执行。
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n < max:
+        yield b
+        a, b = b, a + b
+        n = n + 1
+    return 'done'
+#
+# f = fib(10)
+# print(f)
+
+
+
+
+# def odd():
+#     print('step 1')
+#     yield 1
+#     print('step 2')
+#     yield(3)
+#     print('step 3')
+#     yield(5)
+#
+#
+# o = odd();
+# print(next(o))
+# print(next(o))
+# print(next(o))
+
+
+# 用for循环调用generator时，拿不到generator的return语句的返回值。如果想要拿到返回值，必须捕获StopIteration错误，返回值包含在StopIteration的value中：
+g = fib(6)
+while True:
+    try:
+        x = next(g)
+        print('g:', x)
+    except StopIteration as e:
+        print('Generator return value:', e.value)
+        break
+
+
+# 普通函数直接返回结果,而生成器会返回一个对象
