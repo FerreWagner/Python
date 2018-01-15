@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/diedai.py" line="1" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e18a5711-ccb7-444b-8d8f-68a302452e76" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/senior.py" afterPath="$PROJECT_DIR$/senior.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/diedai.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="senior.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="senior.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/senior.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="836">
@@ -33,11 +37,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="diedai.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/diedai.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="iter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -62,6 +76,7 @@
         <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/iter.py" />
         <option value="$PROJECT_DIR$/senior.py" />
+        <option value="$PROJECT_DIR$/diedai.py" />
       </list>
     </option>
   </component>
@@ -362,14 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -390,6 +397,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="93" column="24" lean-forward="false" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diedai.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
           <folding />
         </state>
       </provider>
